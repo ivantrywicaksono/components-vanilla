@@ -51,7 +51,14 @@ a {
   padding: 0.8rem 1.5rem;
   width: fit-content;
 }
-.event__schedule { color: rgb(var(--main-text-color), 0.75); }
+.event__schedule {
+  /* Horizontal line divider */
+  padding-bottom: 0.8rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid #000;
+
+  color: rgb(var(--main-text-color), 0.75);
+}
 .event__title { margin-top: 0.6rem; }
 
 .date--flex {
