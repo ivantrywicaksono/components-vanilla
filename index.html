@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Components - Vanilla</title>
   </head>
   <body>
+    <header>
+      <div id="navbar1">
+        <h1>Logo</h1>
+        <nav>
+          <ul>
+            <li>About</li>
+            <li>Products</li>
+            <li>Category</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <main>
+      <section>
+        <h1>Events</h1>
+
+        <section>
+          <h2>Upcoming Events</h2>
+
+          <article class="event">
+            <div class="date--grid">
+              <h1>09</h1>
+              <p>February</p>
+              <p>2022</p>
+            </div>
+            <h1 class="event__title">Event Title</h1>
+            <p>Location</p>
+          </article>
+
+          <article class="event">
+            <section class="event__schedule">
+              <div class="date--flex">
+                <h1>Fri</h1>
+                <p>|</p>
+                <h1>06</h1>
+                <div>
+                  <p>January</p>
+                  <p>2022</p>
+                </div>
+              </div>
+
+              <div class="time">
+                <p>07:30 PM - 09:00 PM</p>
+              </div>
+            </section>
+            <h1 class="event__title">707 Members Introduction</h1>
+            <p>at Google Meet</p>
+          </article>
+        </section>
+      </section>
     </main>
   </body>
 </html>
